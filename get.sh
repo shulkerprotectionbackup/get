@@ -45,7 +45,7 @@ install_filemanager()
 	# Which OS and version? #
 	#########################
 
-	filemanager_bin="v2.32.0"
+	filemanager_bin="filebrowser"
 	filemanager_dl_ext=".tar.gz"
 
 	# NOTE: `uname -m` is more accurate and universal than `arch`
