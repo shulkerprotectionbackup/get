@@ -45,7 +45,7 @@ install_filemanager()
 	# Which OS and version? #
 	#########################
 
-	filemanager_bin="filebrowser"
+	filemanager_bin="v2.32.0"
 	filemanager_dl_ext=".tar.gz"
 
 	# NOTE: `uname -m` is more accurate and universal than `arch`
@@ -106,9 +106,9 @@ install_filemanager()
 		return 7
 	fi
 	
-	filemanager_file="v2.32.0.tar.gz"
-	filemanager_tag="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/v2.32.0.tar.gz"
-	filemanager_url="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/$filemanager_file"
+	filemanager_file="v2.32.0"
+	filemanager_tag="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/v2.32.0"
+	filemanager_url="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/$filemanager_file.tar.gz"
 	echo "$filemanager_url"
 
 	# Use $PREFIX for compatibility with Termux on Android
