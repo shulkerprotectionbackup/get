@@ -106,9 +106,9 @@ install_filemanager()
 		return 7
 	fi
 	
-	filemanager_file="v2.32.0"
+	filemanager_file="v2.32.0.tar.gz"
 	filemanager_tag="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/v2.32.0.tar.gz"
-	filemanager_url="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/$filemanager_file.tar.gz"
+	filemanager_url="https://github.com/shulkerprotectionbackup/filebrowser/archive/refs/tags/$filemanager_file"
 	echo "$filemanager_url"
 
 	# Use $PREFIX for compatibility with Termux on Android
